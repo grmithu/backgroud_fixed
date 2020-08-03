@@ -1,0 +1,107 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+}
+
+/*======== Header Part Start =======*/
+
+header{
+	background: #f4f5f4;
+	overflow: hidden;
+	padding: 10px 40px;
+	border-bottom: 1px solid black;
+	/* position: fixed;
+	width: 100% */
+}
+
+/* --------- Logo Part -------- */
+
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo a{
+
+}
+.logo a img{
+	max-width: 100%;
+	width: 159px;
+}
+
+/* ----------- Menu part ---------- */
+
+nav{
+	width: 80%;
+	float: right;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+nav ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 10px 30px;
+	font-size: 20px;
+	color: black;
+}
+nav ul li a:hover{
+	background: #fff;
+	color: black;
+}
+
+/*======== Header Part End =========*/
+
+/*======== Body Part Start ========*/
+
+.banner{
+	background-color: aliceblue;
+	text-align: center;
+	padding: 183px 18%;
+	background-attachment: fixed;
+}
+h1{
+	margin: 0;
+	font-size: 75px;
+	text-transform: capitalize;
+}
+p{
+	font-size: 20px;
+	text-align: justify;
+	line-height: 1.2;
+}
+.content-box{
+	background: #100f0f8c;
+	padding: 17px 55px;
+	color: #d8d6d6;
+}
+/* ------Background Image------ */
+.bg01{
+	background-image: url('../images/portfolio-item57.jpg');
+}
+.bg02{
+	background-image: url('../images/portfolio-item58.jpg');
+}
+.bg03{
+	background-image: url('../images/portfolio-item59.jpg');
+}
+.bg04{
+	background-image: url('../images/portfolio-item60.jpg');
+}
+.bg05{
+	background-image: url('../images/portfolio-item61.jpg');
+}
+.bg06{
+	background-image: url('../images/portfolio-item62.jpg');
+}
+
+/* ---------------- */
